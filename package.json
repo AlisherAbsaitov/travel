@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "next build && next export",
+    "build": "CI= npm run build",
     "prebuild": "jest",
     "test": "fjest",
     "eject": "react-scripts eject"
