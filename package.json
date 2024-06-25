@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "babel src -d lib",
+    "build": "next build && next export",
     "prebuild": "jest",
     "test": "fjest",
     "eject": "react-scripts eject"
